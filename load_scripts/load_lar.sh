@@ -63,3 +63,5 @@ sqlite3 hmda.db < SQL/load_lar_2020.sql
 echo 'finish lar 2020'
 sqlite3 hmda.db < SQL/load_lar_2021.sql
 echo 'finish lar 2021'
+sqlite3 hmda.db < SQL/load_lar_2022.sql
+echo 'finish lar 2022'

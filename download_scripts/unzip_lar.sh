@@ -2,6 +2,8 @@
 
 #This file unzips and renames the LAR files in the data/lar directory.
 #unzip and rename files
+unzip data/lar/lar_2022.zip -d data/lar
+mv -v data/lar/2022_combined_mlar_header.txt data/lar/lar_2022.txt
 unzip data/lar/lar_2021.zip -d data/lar
 unzip data/lar/lar_2020.zip -d data/lar
 unzip data/lar/lar_2019.zip -d data/lar
